@@ -1,6 +1,3 @@
-
-
-
 # initialize user inputs
 x = int(input("What is the length of your credit history (in years): "))
 y = int(input("How many accounts do you have? "))
@@ -52,19 +49,19 @@ def Calculate(lengthOfCreditHistory, totalAccounts, Inquiries, creditLimit, owed
 total = Calculate(x,y,z,a,b,c)
 
 if total == 0:
-    print(str(total) + ": How Does this happen; your score is impossibly low")
+    print(str(total) + ": How does this happen; your score is impossibly low")
 
 if total < 580:
-    print(str(total) + ": Poor | Your score is well below the average score of U.S. consumers and demonstrates to lenders that you are a risky borrower.")
+    print(str(total) + ": Poor | Your score is worse than the majority of US consumers. Lenders may be wary")
 
 if 580 < total < 669:
-    print(str(total) + ": Fair | Your score is below the average score of U.S. consumers, though many lenders will approve loans with this score.")
+    print(str(total) + ": Fair | Your score is below the average of US consumers. Many lenders will still accept this score.")
 
 if 670 < total < 739:
-    print(str(total) + ": Good | Your score is near or slightly above the average of U.S. consumers and most lenders consider this a good score.")
+    print(str(total) + ": Good | Your score is near or slightly above the average of US consumers. Most lenders will find this a good score.")
 
 if 740 < total < 799:
-    print(str(total) + ": Very Good | Your score is above the average of U.S. consumers and demonstrates to lenders that you are a very dependable borrower.")
+    print(str(total) + ": Very Good | Your score is above the average of US consumers. Lenders will consider you a dependable borrower.")
 
 if total > 800:
-    print(str(total) + ": Exceptional | Your score is well above the average score of U.S. consumers and clearly demonstrates to lenders that you are an exceptional borrower.")
+    print(str(total) + ": Exceptional | Your score is better than the majority of US consumers. Lenders will consider you an exceptional borrower.")
