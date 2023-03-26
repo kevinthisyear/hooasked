@@ -5,7 +5,7 @@ The code will prompt the user to enter various details related to their credit h
 In order to run the program, import or copy the code into an IDE that runs Python.
 
 ## Collaborators: 
-### Kevin Zhang https://github.com/KeevinChang
-### Kevin Lam https://github.com/kevinthisyear
-### Jaelyn Do https://github.com/jhdo8
-### Rex Wang https://github.com/rwang999
+Kevin Zhang https://github.com/KeevinChang  
+Kevin Lam https://github.com/kevinthisyear  
+Jaelyn Do https://github.com/jhdo8  
+Rex Wang https://github.com/rwang999
